@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "repository": "https://github.com/TheEagleByte/advent-of-code-2023.git",
+  "author": "EagleByte <28986398+TheEagleByte@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "day1-part1": "ts-node day-1/part1.ts day-1/input.txt",
+    "day1-part2": "ts-node day-1/part2.ts day-1/input.txt"
+  }
+}
