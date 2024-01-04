@@ -5,7 +5,7 @@
 // Concatenate them together to form a new number
 // Sum all the new numbers together
 
-import { readFileSync } from "fs";
+import * as fs from "fs";
 
 const spelledOutNumbers = {
   one: "1",
@@ -23,7 +23,7 @@ const spelledOutNumbers = {
 const arg = process.argv[2];
 
 // Read the input file
-const input = readFileSync(arg, "utf8");
+const input = fs.readFileSync(arg, "utf8");
 
 // Split the input file into lines
 const lines = input.split("\n");
